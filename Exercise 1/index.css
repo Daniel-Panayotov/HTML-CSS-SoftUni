@@ -1,0 +1,17 @@
+/* text, font, background, border */
+/* Ctrl + / */
+a {
+	display: flex;
+}
+
+[href='javascript:void(0)'] {
+	color: aqua;
+}
+
+div h4 {
+	color: red;
+}
+
+div > h4 {
+	color: blue;
+}
