@@ -1,0 +1,52 @@
+html {
+	font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body,
+table,
+blockquote {
+	font: inherit;
+}
+
+.container {
+	padding: 3em 4em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Georgia, serif;
+	font-weight: 500;
+	line-height: 1;
+}
+
+hr {
+	margin: 3em 0;
+}
+
+blockquote {
+	border-left: 3px solid rgb(221, 221, 221);
+	font-style: italic;
+	padding-left: 3em;
+	font-weight: bold;
+}
+
+table {
+	background-color: lightgrey;
+}
+
+thead th {
+	font-weight: bold;
+	padding: 0.3em 20em 0.3em 0.3em;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: rgb(230, 230, 230);
+}
+
+tbody tr:nth-child(even) {
+	background-color: white;
+}

@@ -1,0 +1,20 @@
+/* TODO: style the html */
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	padding: 16px;
+	font-size: 16px;
+}
+
+th,
+td {
+	width: 9em; /*144 */
+	height: 2em; /*32 */
+	border: 0.06em solid #ccc; /* 1*/
+	padding-left: 0.31em; /*5 */
+}
+
+th {
+	background-color: lightblue;
+}
