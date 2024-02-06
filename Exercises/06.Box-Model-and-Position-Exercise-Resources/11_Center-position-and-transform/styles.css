@@ -1,0 +1,41 @@
+body {
+	background-color: rgb(238, 238, 238);
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a {
+	background-color: rgb(0, 153, 0);
+	text-decoration: none;
+	color: white;
+	padding: 0.5em;
+	border-radius: 0.5em;
+}
+
+a:hover {
+	background-color: rgb(4, 182, 4);
+}
+
+h3 {
+	font: 1em/1.2 Georgia, serif;
+	font-weight: 600;
+	margin: 0;
+}
+
+.card {
+	background-color: rgb(255, 255, 255);
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 400px;
+}
+
+.info {
+	padding: 2em;
+}

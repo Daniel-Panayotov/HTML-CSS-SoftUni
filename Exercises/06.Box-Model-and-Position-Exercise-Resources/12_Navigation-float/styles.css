@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font: 16px/1.5 Arial, sans-serif;
+}
+
+body {
+	font: inherit;
+	padding: 3em 6em;
+	background-color: rgb(238, 238, 238);
+}
+
+main {
+	max-width: 75em;
+}
+
+aside {
+	vertical-align: top;
+	margin-left: 10em;
+}
+
+nav {
+	float: right;
+	position: relative;
+}
+
+.navigation {
+	position: relative;
+	top: 1em;
+}
+
+blockquote {
+	border-left: 2px solid gray;
+	padding-left: 1em;
+}
+
+h2 {
+	margin-top: 2em;
+}
+
+a {
+	color: rgb(0, 165, 0);
+	font-weight: 600;
+	text-decoration: none;
+}
+
+img {
+	max-width: 40em;
+	height: auto;
+	display: block;
+}
+
+main,
+aside {
+	display: inline-block;
+}
+
+header p {
+	font-size: 2.4em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+aside ul {
+	padding-left: 2em;
+}
+
+nav li,
+header p,
+nav {
+	display: inline-block;
+}
+
+main p {
+	margin: 1em 0;
+}
+
+header ul li {
+	margin: 0 0.5em;
+}
+
+.first-img {
+	float: right;
+}
+
+.header {
+	border-bottom: 2px solid black;
+	padding-bottom: 0.5em;
+	margin-bottom: 2em;
+}
+
+.p-blockq,
+blockquote,
+blockquote * {
+	display: inline-block;
+}
+
+blockquote,
+.p-blockq {
+	max-width: 45%;
+}
+
+.quote-name {
+	position: relative;
+	right: 0;
+}
+
+.quote-text {
+	font-style: italic;
+}
+
+.img-second {
+	float: left;
+	margin: 2em 1em 1em 0;
+}

@@ -1,0 +1,40 @@
+html {
+	font: 16px/1.5 Helvetica, sans-serif;
+	box-sizing: border-box;
+	padding: 2em;
+}
+
+body {
+	font: inherit;
+}
+
+header {
+	border-bottom: 2px solid gray;
+}
+
+header h1,
+nav {
+	display: inline-block;
+}
+
+nav {
+	margin-left: 6em;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav a {
+	margin: 0 0.5em;
+	color: darkgreen;
+	text-decoration: none;
+}
+
+main > h2 {
+	font-weight: 500;
+}
