@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+	font: inherit;
+	background-color: rgb(238, 238, 238);
+	padding: 2em;
+}
+
+main p {
+	padding-bottom: 2em;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 153, 0);
+}
+
+h1,
+h2 {
+	padding: 0 0 1em;
+}
+.page {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 70vw;
+	margin: 0 auto;
+}
+
+.page > header {
+	border-bottom: 3px solid black;
+	padding: 2em 0;
+	flex: 0 1 100%;
+}
+
+.page > header p {
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.page > main {
+	flex: 1 1 60%;
+	padding-top: 2em;
+}
+
+.page > main img {
+	max-width: 20%;
+	min-width: 5em;
+	padding: 1%;
+	border: 3px solid black;
+}
+
+.page > main .first-img {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+.page > main .second-img {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.page > main blockquote {
+	border-left: 2px solid gray;
+	padding-left: 1em;
+	margin-left: 1em;
+	max-width: 50%;
+	font-style: italic;
+	float: right;
+}
+
+.page > main blockquote .author {
+	text-align: right;
+}
+
+.page > aside {
+	padding-top: 2em;
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.page > aside ul {
+	padding-left: 1em;
+}
+
+.page > aside ul li {
+	list-style-position: inside;
+}

@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+	font: inherit;
+	height: 100vh;
+	background-color: rgb(238, 238, 238);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.site-header,
+.site-footer,
+.site-main {
+	flex: 0 1 100%;
+	padding: 1em 2em;
+}
+
+.site-header {
+	border-bottom: 3px solid black;
+}
+
+.site-main p,
+.site-main h2 {
+	padding-bottom: 1em;
+}
+
+.site-footer {
+	margin-top: auto;
+	background-color: rgb(102, 102, 102);
+	color: rgb(255, 255, 255);
+}
