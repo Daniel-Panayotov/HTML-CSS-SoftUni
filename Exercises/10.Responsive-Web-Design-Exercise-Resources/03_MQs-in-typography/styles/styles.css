@@ -1,0 +1,73 @@
+@import url('./typography.css');
+
+.site {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.site-header {
+	border-bottom: 2px solid black;
+	padding: 0.5em 0;
+	margin-bottom: 1em;
+}
+
+.site-header,
+.site-main {
+	flex: 0 1 90%;
+}
+
+@media (min-width: 600px) {
+	.site-header,
+	.site-main {
+		flex: 0 1 70%;
+	}
+}
+
+.site-header .site-title {
+	font-size: 2em;
+	font-weight: 600;
+	padding: 0;
+}
+
+.img-1,
+.img-2 {
+	max-width: 15%;
+}
+
+.site-main .img-1 {
+	margin: 0 0 1em 1em;
+	float: right;
+}
+
+.site-main .img-2 {
+	margin: 0 1em 1em 0;
+	float: left;
+}
+
+.handle-quote {
+	display: flex;
+	gap: 1em;
+	padding-bottom: 1em;
+}
+
+.handle-quote > p {
+	flex: 0 1 60%;
+}
+
+.handle-quote blockquote {
+	flex: 0 1 40%;
+	border-left: 2px solid black;
+	padding-left: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.handle-quote blockquote p {
+	padding: 0;
+}
+
+.handle-quote blockquote .author {
+	align-self: flex-end;
+}

@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 700px) {
+	body {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+header {
+	text-align: center;
+
+	padding: 60px;
+
+	margin: 0px;
+
+	background-color: #1abc9c;
+
+	color: white;
+}
+
+@media (min-width: 700px) {
+	header,
+	footer {
+		flex: 0 1 100%;
+	}
+
+	aside {
+		flex: 0 1 30%;
+	}
+
+	main {
+		flex: 0 1 70%;
+	}
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(41, 41, 41);
+}
+
+@media (min-width: 700px) {
+	nav {
+		flex-direction: row;
+		gap: 3em;
+		padding: 0 1em;
+		flex: 0 1 100%;
+	}
+}
+
+nav a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 1em 0;
+}
+
+aside {
+	background-color: #f1f1f1;
+}
+
+main {
+	background-color: white;
+}
+
+aside,
+main {
+	padding: 1em;
+}
+
+footer {
+	text-align: center;
+	background-color: lightgray;
+	padding: 1em;
+}
+
+/* TODO Responsive layout - when the screen is less than 700px wide, 
+make the two columns stack on top of each other instead of next to each other */
+
+/* TODO Responsive layout - If the screen is smaller than 700px, 
+display the navigation bar links as block and center the text */
