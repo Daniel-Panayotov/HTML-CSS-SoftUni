@@ -1,0 +1,16 @@
+body {
+	height: 100vh;
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.site {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.site-max-width {
+	max-width: 70em;
+}

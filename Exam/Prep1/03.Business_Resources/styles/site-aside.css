@@ -1,0 +1,37 @@
+.site-aside img {
+	max-width: 10em;
+}
+
+.site-aside {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3em;
+	/* site-padding included */
+	padding: 2em;
+	background-color: white;
+}
+
+.sponsors-partners {
+	display: flex;
+	flex-direction: column;
+	gap: 4em;
+	text-align: center;
+}
+
+.sponsors-partners header h2 {
+	color: #b0825c;
+	padding-bottom: 2rem;
+}
+
+.media .img-logo {
+	padding: 1.5em;
+	background-color: #dddddd;
+	border-radius: 100%;
+}
+
+.sponsors-partners .media {
+	display: flex;
+	gap: 4em;
+	justify-content: center;
+}

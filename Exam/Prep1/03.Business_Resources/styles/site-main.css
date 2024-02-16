@@ -1,0 +1,29 @@
+.site-main {
+	/* site-padding included */
+	border-bottom: 2px solid #cccccc;
+	background-color: white;
+}
+.main-container {
+	margin: 0 auto;
+	padding: 6em 2em;
+	display: flex;
+	justify-content: center;
+	gap: 2em;
+}
+.site-main article {
+	flex: 0 1 35em;
+}
+
+.content {
+	margin-top: 1em;
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+}
+
+.content .button {
+	border: 2px solid #b0825c;
+	color: #b08270;
+	align-self: flex-start;
+	padding: 0.5em 1em;
+}

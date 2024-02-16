@@ -1,0 +1,54 @@
+.site-footer {
+	background-color: #171720;
+}
+
+.resources {
+	border-bottom: 1px solid #3a3a41;
+	padding: 0 2em;
+}
+
+.footer-container {
+	padding: 3em 0em;
+	display: flex;
+	gap: 5em;
+	margin: 0 auto;
+}
+
+.resources h4 {
+	color: white;
+	font-weight: normal;
+	margin-bottom: 1.5em;
+}
+
+.resources section ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.resources section ul li {
+	list-style: none outside;
+}
+
+.resources section ul li a {
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+
+.resources section ul li a,
+.copyright p {
+	color: #b3a6a8;
+}
+
+.copyright {
+	padding: 1em 2em;
+	margin: 0 auto;
+}
+
+.copyright-container {
+	margin: 0 auto;
+}
+
+.copyright p {
+	font-size: 0.8em;
+}

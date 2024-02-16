@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+	.home-navbar * {
+		display: none;
+	}
+
+	.home-navbar {
+		height: 2em;
+	}
+
+	.home-footer .home-footer1 {
+		flex-direction: column-reverse;
+	}
+	.home-footer .home-footer1 .home-links-container {
+		flex-direction: column;
+	}
+
+	.home-main .home-full-width-banner {
+		flex-direction: column;
+	}
+
+	.home-main .home-full-width-banner .home-left4 {
+		padding: 2em 1em;
+		gap: 1em;
+	}
+
+	.home-main .home-full-width-banner .home-left4 .home-content {
+		margin: 0;
+	}
+
+	.home-main .home-full-width-banner .home-content .home-text30 {
+		width: 100%;
+	}
+
+	.home-main .home-full-width-banner .home-image6 {
+		width: 100%;
+	}
+
+	.home-main .home-cards-container {
+		grid-gap: 1em;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,54 @@
+.logo {
+	max-width: 5em;
+}
+
+.site-header {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 16em;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em 3em;
+}
+
+@media (max-width: 1000px) {
+	.header {
+		padding: 2em 1em;
+	}
+}
+
+.site-navigation ul {
+	display: flex;
+	gap: 1.5em;
+}
+
+.site-navigation ul li {
+	list-style: none outside;
+}
+
+.site-navigation ul li a {
+	color: white;
+	text-transform: uppercase;
+}
+
+.about {
+	margin: 0 auto;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	padding: 3em 2em 0 2em;
+}
+
+.about h1 {
+	font-weight: 200;
+	line-height: 1;
+}
+
+.about p {
+	padding-right: 35em;
+	font-size: 1.25;
+}
