@@ -1,0 +1,84 @@
+.site-main {
+	display: flex;
+	flex-direction: column;
+}
+
+.message {
+	background-color: #56dbb1;
+	text-align: center;
+	padding: 4.5em 1em 4em;
+}
+
+.movies {
+	background-color: #353434;
+	padding: 7.5em 1em;
+}
+
+.movies .container {
+	display: flex;
+	gap: 2.75em;
+}
+
+.movies .card {
+	max-width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 1.2em;
+}
+
+.icon-holder {
+	max-width: 110px;
+	background-color: #56dbb1;
+	padding: 1.25em;
+	display: flex;
+	margin: 0 auto;
+}
+
+.icon-holder i {
+	font-size: 3em;
+}
+
+.movies .card p:first-of-type {
+	color: white;
+	padding-bottom: 1.25em;
+	border-bottom: 1px solid white;
+	width: 100%;
+}
+
+.movies .card p:nth-of-type(2) {
+	color: #5b5956;
+	line-height: 2;
+	font-size: 0.8em;
+}
+
+.order {
+	padding: 5em 1em 4em;
+}
+
+.order .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+}
+
+.order .container .content {
+	text-align: center;
+}
+
+.order .container .content h2 {
+	font-size: 2em;
+	color: #5f5f5f;
+}
+.order .container .content p {
+	color: #c3bcb8;
+}
+
+.order a {
+	background-color: #974d1b;
+	color: white;
+	padding: 1em 1.8em;
+}

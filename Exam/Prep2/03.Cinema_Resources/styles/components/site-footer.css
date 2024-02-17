@@ -1,0 +1,21 @@
+.site-footer {
+	background-color: #1b9772;
+	padding: 3.5em 1em;
+}
+
+.site-footer .container {
+	display: flex;
+	gap: 0.5em;
+	justify-content: center;
+}
+
+.site-footer .container p {
+	text-align: center;
+	color: #56dbb0;
+	font-weight: 200;
+}
+
+.white {
+	display: inline-block;
+	color: white;
+}

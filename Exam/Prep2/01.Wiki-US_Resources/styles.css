@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font: 16px/1.5 'Agbalumo';
+}
+
+body {
+	font: inherit;
+	padding: 1em;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+.container {
+	max-width: 845px;
+	max-height: 700px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+header {
+	padding: 1em 3em 0 1em;
+	background-color: #d5ebea;
+	text-align: center;
+}
+
+header h1 {
+	font-weight: bold;
+	border-bottom: 2px solid black;
+}
+
+header h3 {
+	border-bottom: 2px solid black;
+}
+
+main {
+	padding: 2em 3em 2em 1em;
+	display: flex;
+	gap: 1.5em;
+}
+
+.map-container {
+	border: 2px solid black;
+	padding: 9px 12px;
+	max-width: 295px;
+}
+
+.map-container img {
+	max-width: 265px;
+}
+
+.map-container p {
+	padding-top: 1rem;
+	font-size: 10px;
+	text-indent: 1rem;
+	font-weight: bold;
+}
+
+.content p {
+	text-indent: 2em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+}
+
+.facts-h {
+	background-color: black;
+	display: inline-block;
+	padding-inline: 4em;
+}
+
+.facts-h h3 {
+	color: white;
+}
+
+aside {
+	background-color: #d5ebea;
+	padding: 1em 3em 0.5em 2em;
+}
