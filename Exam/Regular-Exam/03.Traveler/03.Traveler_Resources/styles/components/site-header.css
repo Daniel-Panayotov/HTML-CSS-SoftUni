@@ -1,0 +1,55 @@
+.site-header {
+	padding: 1.5em 5em 0;
+	position: relative;
+}
+
+.site-header::before {
+	background-image: url('../../images/poster.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	filter: brightness(60%);
+	inset: 0;
+	position: absolute;
+	content: '';
+	z-index: -1;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-logo {
+	max-width: 110px;
+}
+
+.site-nav ul {
+	display: flex;
+	gap: 3em;
+}
+
+.site-nav ul li {
+	list-style: none outside;
+}
+
+.site-nav ul li a {
+	color: white;
+}
+
+.header-content {
+	color: white;
+	text-align: center;
+	padding: 8em 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 6em;
+}
+
+.header-content h1 {
+	padding-top: 0.5em;
+}
+
+.header-content p {
+	max-width: 30em;
+}

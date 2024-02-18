@@ -1,0 +1,39 @@
+.site-footer {
+	background-color: #352b2a;
+	padding: 3.4em 0.5em;
+}
+
+.site-footer .container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 3em;
+	max-width: 100%;
+	margin-left: 160px;
+}
+
+@media (max-width: 1000px) {
+	.site-footer .container {
+		margin-left: 0;
+	}
+}
+
+.site-footer .footer-logo {
+	max-width: 4em;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.footer-content p:first-child {
+	color: white;
+	max-width: 25em;
+}
+
+.footer-content p:nth-child(2) {
+	color: #766968;
+	font-size: 16px;
+}

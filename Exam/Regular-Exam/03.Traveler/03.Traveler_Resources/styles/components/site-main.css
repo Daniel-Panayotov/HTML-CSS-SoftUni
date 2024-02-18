@@ -1,0 +1,103 @@
+.reviews {
+	padding: 2em 0.5em;
+	background-color: #f8f0e9;
+}
+
+.reviews .container {
+	display: flex;
+	flex-direction: column;
+	gap: 4em;
+}
+
+.reviews h2 {
+	font-style: italic;
+	padding-bottom: 2em;
+	line-height: 0.8;
+}
+
+.reviews p,
+.reviews h2 {
+	color: #352b2a;
+}
+
+.support {
+	background-color: #e14747;
+	padding: 3.5em 0.5em;
+}
+
+.support .container {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2em;
+	max-width: 15em;
+	text-align: center;
+}
+
+.destination {
+	background-color: #f8f0e9;
+	padding: 4em 0.5em;
+}
+
+.destination .container {
+	max-width: 460px;
+	display: flex;
+	flex-direction: column;
+	gap: 5em;
+	align-items: center;
+}
+
+.destination .container h3 {
+	text-align: center;
+	max-width: 9em;
+}
+
+.destination .container p {
+	color: #352b2a;
+}
+
+.destination .container .button {
+	color: black;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 0.5em 1em;
+}
+
+.button.read-more {
+	align-self: flex-start;
+}
+
+.find-guide {
+	background-color: #e14747;
+	padding: 4em 0.5em;
+}
+
+.find-guide .container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3em;
+}
+
+.find-guide h3,
+.find-guide p {
+	color: white;
+}
+
+.find-guide h3 {
+	padding: 0.5em 0;
+}
+
+.find-guide p {
+	letter-spacing: 0.07em;
+}
+
+.find-guide .button {
+	color: black;
+	background-color: #fad87a;
+	padding: 1em 1.5em;
+	border-radius: 1em;
+	border-radius: 2em;
+}

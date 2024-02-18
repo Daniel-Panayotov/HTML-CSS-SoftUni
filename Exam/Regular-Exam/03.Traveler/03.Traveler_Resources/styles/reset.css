@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+html {
+	font: 18px/1.5 'Karla';
+}
+
+body {
+	font: inherit;
+}

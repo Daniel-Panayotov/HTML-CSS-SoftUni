@@ -1,0 +1,161 @@
+@media (max-width: 600px) {
+	html {
+		font-size: 12px;
+	}
+
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.team-description ul li img {
+		width: 100%;
+		height: auto;
+	}
+
+	header nav {
+		margin: 0;
+		text-align: center;
+	}
+
+	header nav ul {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+	}
+
+	header nav ul li a {
+		font-size: 0.8em;
+	}
+
+	.header-title {
+		padding: 1.8em 0;
+	}
+
+	.header-title h1 {
+		font-size: 1.6em;
+		font-weight: bold;
+	}
+
+	.header-title p {
+		font-size: 0.8em;
+	}
+
+	.choose-us ul {
+		flex-direction: column;
+		gap: 1em;
+	}
+
+	.choose-us ul li {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.choose-us ul li h4 {
+		font-size: 1em;
+	}
+
+	.choose-us ul li p {
+		max-width: 70%;
+		font-size: 0.8em;
+	}
+
+	.about-us {
+		width: 60%;
+	}
+
+	.about-us p:nth-child(3) {
+		width: auto;
+		font-size: 0.8em;
+	}
+
+	.about-us p:nth-child(2) {
+		font-size: 0.8em;
+	}
+
+	.about-us h3 {
+		font-size: 1.3em;
+	}
+
+	.team-description-wrapper h3 {
+		font-size: 1.3em;
+	}
+
+	.team-description-wrapper p {
+		font-size: 0.8em;
+	}
+
+	.team-description-wrapper ul li p {
+		font-size: 0.6em;
+	}
+
+	.team-description-wrapper ul {
+		gap: 3em;
+	}
+
+	footer p {
+		font-size: 0.8em;
+	}
+}
+
+@media (max-width: 400px) {
+	html {
+		font-size: 8px;
+	}
+
+	header nav ul {
+		gap: 0.2em;
+	}
+
+	header nav ul li a {
+		font-size: 0.7em;
+	}
+
+	.header-title h1 {
+		font-size: 1.4em;
+	}
+
+	.header-title p {
+		font-size: 0.7em;
+	}
+
+	.header-title button {
+		padding: 0.5em;
+		font-size: 0.8em;
+	}
+
+	.choose-us ul li h4 {
+		font-size: 0.9em;
+	}
+
+	.choose-us ul li p {
+		font-size: 0.7em;
+	}
+
+	.about-us p:nth-child(3) {
+		font-size: 0.8em;
+	}
+
+	.about-us h3 {
+		font-size: 1.2em;
+	}
+
+	.about-us p:nth-child(2) {
+		font-size: 0.75em;
+	}
+
+	.team-description-wrapper h3 {
+		font-size: 1.2em;
+	}
+
+	.team-description-wrapper p {
+		font-size: 0.7em;
+	}
+
+	footer p {
+		font-size: 0.7em;
+	}
+}
